@@ -341,10 +341,13 @@
                 <div class="product-card-elegant">
                     <!-- IMAGEN -->
                     <div class="product-image-container">
-                        <img src="~/imagenes/@p.FotoUrl" 
-                             alt="@p.Nombre"
-                             class="product-image"
-                             onerror="this.src='https://via.placeholder.com/400x300/003366/FFFFFF?text=UAM+Producto'" />
+    @{
+        var fotoFile = string.IsNullOrWhiteSpace(p.FotoUrl) ? "default.png" : p.FotoUrl;
+    }
+    <img src="@(Url.Content($"~/imagenes/{fotoFile}"))"
+                        alt="@p.Nombre"
+                        class="product-image"
+                        onerror="this.src='https://via.placeholder.com/400x300/003366/FFFFFF?text=UAM+Producto'" />
                     </div>
                     
                     <!-- CONTENIDO -->

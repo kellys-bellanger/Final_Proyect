@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UAMarketSimple")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2324ec36c1ad4dca1c3924ceda7bf0bdd3ba20c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49a418e10fb65c8faa198afd5d55a8fea77599c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("UAMarketSimple")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UAMarketSimple")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

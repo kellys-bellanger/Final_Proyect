@@ -1,26 +1,30 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Agregar servicios
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar el pipeline HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 
+// --- ESTO ES LO VITAL ---
+// Esto permite que wwwroot funcione normal, sin "magia" rara de .NET 9
+app.UseStaticFiles(); 
+// ------------------------
+
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+// --- Ruteo Clásico ---
+app.MapRazorPages(); 
+// (Nota: Quitamos el .WithStaticAssets() y el MapStaticAssets() que causaban el error)
 
 app.Run();

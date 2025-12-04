@@ -44,7 +44,7 @@ namespace UAMarketSimple
                     Precio=200, 
                     Descripcion="Casio FX", 
                     Telefono="86319685", 
-                    FotoUrl="/imagenes/calculadora.jpeg" 
+                    FotoUrl="https://m.media-amazon.com/images/I/7106N3FkHkL._AC_SX679_.jpg" 
                 });
 
                 ListaProductos.Add(new Producto { 
@@ -52,7 +52,7 @@ namespace UAMarketSimple
                     Precio=500, 
                     Descripcion="Marca Dior -- Color blanco", 
                     Telefono="87168339", 
-                    FotoUrl="/imagenes/bata.jpeg" 
+                    FotoUrl="https://m.media-amazon.com/images/I/51w+z6y-JlL._AC_UY1000_.jpg" 
                 });
             }
 
