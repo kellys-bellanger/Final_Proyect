@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MT\\.nuget\\packages\\": {},
+    "C:\\Users\\Natanael_VR\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MT\\OneDrive\\Desktop\\UAMARKET\\UAMarketSimple.csproj",
+      "projectUniqueName": "C:\\Users\\Natanael_VR\\Desktop\\Proyecto_PE\\Final_Proyect\\UAMarketSimple.csproj",
       "projectName": "UAMarketSimple",
-      "projectPath": "C:\\Users\\MT\\OneDrive\\Desktop\\UAMARKET\\UAMarketSimple.csproj",
-      "packagesPath": "C:\\Users\\MT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MT\\OneDrive\\Desktop\\UAMARKET\\obj\\",
+      "projectPath": "C:\\Users\\Natanael_VR\\Desktop\\Proyecto_PE\\Final_Proyect\\UAMarketSimple.csproj",
+      "packagesPath": "C:\\Users\\Natanael_VR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Natanael_VR\\Desktop\\Proyecto_PE\\Final_Proyect\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Natanael_VR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
