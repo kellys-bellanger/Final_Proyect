@@ -25,7 +25,7 @@
         opacity: 0.8;
     }
     
-    /* BARRA DE BÚSQUEDA MÁS LARGA Y ELEGANTE */
+    /* BARRA DE BÚSQUEDA*/
     .search-hero {
         text-align: center;
         padding: 20px 20px 40px 20px;
@@ -110,7 +110,7 @@
         font-weight: bold;
     }
 
-    /* ESTILOS PARA LAS NUEVAS TARJETAS (4 POR FILA) */
+    /* ESTILOS PARA LAS TARJETAS (4 POR FILA) */
     .products-grid-4 {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -118,7 +118,7 @@
         margin-top: 30px;
     }
 
-    /* TARJETA ELEGANTE */
+    /* TARJETA  */
     .product-card-elegant {
         background: white;
         border-radius: 12px;
@@ -263,7 +263,7 @@
         transform: scale(1.05);
     }
 
-    /* ESTILO PARA CORAZÓN ACTIVO */
+    /* CORAZÓN ACTIVO */
     .favorito-activo {
         background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%) !important;
         box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4) !important;
@@ -282,7 +282,7 @@
         animation: heartbeat 0.3s ease;
     }
 
-    /* RESPONSIVE */
+    /* RESPONSIVO */
     @@media (max-width: 1200px) {
         .products-grid-4 {
             grid-template-columns: repeat(3, 1fr);
@@ -334,7 +334,7 @@
     }
     else
     {
-        <!-- NUEVO GRID DE 4 TARJETAS POR FILA -->
+        <!-- 4 TARJETAS POR FILA -->
         <div class="products-grid-4">
             @foreach (var p in Model.MisProductos)
             {
@@ -354,12 +354,12 @@
                              @p.Nombre
                         </h3>
                         
-                        <!-- PRECIO CON EMOJI -->
+                        <!-- PRECIO -->
                         <div class="product-price-elegant">
                             <span class="price-amount">C$ @p.Precio</span>
                         </div>
                         
-                        <!-- DESCRIPCIÓN CORTA CON EMOJI -->
+                        <!-- DESCRIPCIÓN CORTA -->
                         <p class="product-description-elegant">
                             @{
                                 var desc = p.Descripcion.Length > 60 ? p.Descripcion.Substring(0, 60) + "..." : p.Descripcion;
@@ -367,7 +367,7 @@
                             @desc
                         </p>
                         
-                        <!-- VENDEDOR CON EMOJI -->
+                        <!-- VENDEDOR  -->
                         <div class="product-seller">
                             <span class="seller-icon">👤</span>
                             <span class="seller-text">Vendedor UAM</span>
@@ -375,7 +375,7 @@
                         
                         <!-- BOTONES -->
                         <div class="product-actions-elegant">
-                            <a href="https://wa.me/505@p.Telefono" 
+                            <a href="https://wa.me/50587168339" 
                                class="btn-contact-elegant" 
                                target="_blank">
                                 Contactar

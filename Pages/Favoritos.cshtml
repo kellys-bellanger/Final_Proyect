@@ -51,7 +51,7 @@
     }
     else
     {
-        <!-- GRID DE PRODUCTOS FAVORITOS - 5 POR FILA -->
+        <!-- PRODUCTOS FAVORITOS - 5 POR FILA -->
         <div class="favoritos-grid-5">
             @foreach (var p in ProductosFavoritos)
             {
@@ -174,7 +174,7 @@
         font-size: 14px;
     }
 
-    /* GRID DE FAVORITOS - 5 POR FILA */
+    /* FAVORITOS - 5 POR FILA */
     .favoritos-grid-5 {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -309,7 +309,7 @@
         transform: scale(1.05);
     }
 
-    /* RESPONSIVE */
+    /* RESPONSIVO */
     @@media (max-width: 1200px) {
         .favoritos-grid-5 {
             grid-template-columns: repeat(4, 1fr);
